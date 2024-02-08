@@ -1,0 +1,93 @@
+.container {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.gridOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: left;
+    width: 600px    ;
+}
+
+.gridTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-items: left;
+    width: 600px    ;
+}
+
+.gTwoRed{
+    background-color: red;
+    width: -webkit-fill-available;
+}
+.gTwoBlue{
+    background-color: blue;
+    width: -webkit-fill-available;
+}
+.gTwoYellow{
+    background-color: yellow;
+    width: -webkit-fill-available;
+}
+
+.gridThree{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px; 
+    margin-bottom: 20px;
+}
+
+.image-three img{
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.gridFour{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px; 
+    background-color: green;
+}
+
+#id-text-four{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    width: 500px; 
+    background-color: lightgrey;
+}
+
+#id-image-five{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+#id-image-five img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridSix{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;  
+    background-color: lightgrey; 
+}
+
+.text-six{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
